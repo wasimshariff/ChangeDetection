@@ -1,3 +1,7 @@
 .myStyle {
   color: darkblue;
 }
+
+.active {
+  background-color: aqua;
+}

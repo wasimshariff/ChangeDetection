@@ -1,19 +1,9 @@
 <div class = "myStyle">
 Hello {{title}}
 </div>
-
-Eg 1 :
-<h2>Demo: NgZone</h2>
-{{label}}
-<p>Progress: {{progress}}%</p>
-<p *ngIf="progress >= 100">Done processing {{label}} of Angular zone!</p>
-
-<button (click)="processWithinAngularZone()">Process within Angular zone</button>
-<button (click)="processOutsideOfAngularZone()">Process outside of Angular zone</button>
-
-<app-child1></app-child1>
-<br/>
-Eg 3:
-<br/>
-
-<app-parent-foods></app-parent-foods>
+<nav>
+  <a routerLink="/home" routerLinkActive="active">home</a> &nbsp;
+  <a routerLink="/ticker" routerLinkActive="active">ticker</a> &nbsp;
+  <a routerLink="/foods" routerLinkActive="active">Food List</a>
+</nav>
+<router-outlet></router-outlet>

@@ -19,8 +19,8 @@ export class ChildFoodsComponent implements OnInit {
   ngOnInit() {
     this.foodObs.subscribe(data => {
       this.foodList.push(data);
-      this.cd.detectChanges();
-      // this.cd.markForCheck();
+      //this.cd.detectChanges();
+       this.cd.markForCheck();
     });
   }
 
