@@ -8,6 +8,8 @@ import { ParentFoodsComponent } from './parent-foods/parent-foods.component';
 import { ChildFoodsComponent } from './child-foods/child-foods.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { SimpleCdParentComponent } from './simple-cd-parent/simple-cd-parent.component';
+import { SimpleCdChildComponent } from './simple-cd-child/simple-cd-child.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { HomeComponent } from './home/home.component';
     Child1Component,
     ParentFoodsComponent,
     ChildFoodsComponent,
-    HomeComponent
+    HomeComponent,
+    SimpleCdParentComponent,
+    SimpleCdChildComponent
   ],
   imports: [
     BrowserModule,
